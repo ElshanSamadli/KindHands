@@ -52,6 +52,10 @@ body {
   margin-left: .75rem;
 }
 
+.marketing {
+   padding: 7% 0;
+}
+
 
 /* Featurettes
 ------------------------- */
@@ -92,7 +96,7 @@ body {
 
 
 .carousel-item {
-  background-color: #4A0E66;
+  background-color:#8566aa;
 }
 
 .nav-link {
@@ -105,10 +109,86 @@ body {
   color: #4A0E66;
 }
 
+
+
 #features {
   background-color: #4A0E66;
 }
 
-.container-fluid {
-  background-color: #4A0E66;
+#first-feature {
+  background-color: #827397;
+  padding: 7% 15%;
+  color: white;
+}
+
+#second-feature {
+  padding: 7% 15%;
+}
+
+
+#third-feature {
+  background-color: #8566aa;
+  padding: 7% 15%;
+  color: white;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+}
+
+
+/* Icons */
+
+
+.icon1, .icon2, .icon3 {
+  color: #b5076b;
+  margin-bottom: 1rem;
+}
+
+.icon1:hover {
+  color: #00cf2d;
+}
+
+.icon2:hover {
+  color: #0779e4;
+}
+
+.icon3:hover {
+  color: #ff0000;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-envelope {
+  color:#8566aa;
+}
+
+
+/* Navbar */
+
+
+.navbar {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color: #8566aa;
 }
