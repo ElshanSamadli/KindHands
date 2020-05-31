@@ -4,7 +4,6 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -99,15 +98,26 @@ body {
   background-color:#8566aa;
 }
 
-.nav-link {
-  color: #4A0E66;
-  
+@media (min-width: 768px) {
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: .5rem;
+    font-size: 1.1rem;
+}
+}
+
+
+.kind-hands-logo {
+  width: 50%;
+  height: 50%;
 }
 
 .navbar-brand {
-  font-size: 3rem;
-  color: #4A0E66;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
 }
+
 
 
 
