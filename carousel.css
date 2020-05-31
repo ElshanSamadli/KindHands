@@ -106,19 +106,13 @@ body {
 }
 }
 
-/* 
-.kind-hands-logo {
-  width: 50%;
-  height: 50%;
-} */
+
 
 .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0;
 }
-
-
 
 
 #features {
@@ -202,3 +196,20 @@ body {
   border-bottom-width: 1px;
   border-bottom-color: #8566aa;
 }
+
+.btn {
+  background-color: #b5076b; 
+  border-color: transparent;
+  color: white;
+  
+}
+
+.btn:hover {
+  color: white;
+}
+
+
+
+
+
+
