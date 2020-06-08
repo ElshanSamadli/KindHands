@@ -85,12 +85,15 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
+  
 }
 
 
@@ -98,13 +101,26 @@ body {
   background-color:#8566aa;
 }
 
+.kind-hands-logo {
+  width: 150px;
+  height: 75px;
+}
+
+
 @media (min-width: 768px) {
-.navbar-expand-md .navbar-nav .nav-link {
+  .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: .5rem;
     font-size: 1.1rem;
 }
+  .kind-hands-logo {
+    width: 200px;
+    height: 100px;
+  }
+
 }
+
+
 
 
 
@@ -127,6 +143,7 @@ body {
 
 #second-feature {
   padding: 7% 15%;
+  background-image: url(images/2018-quatrefoil-background-white.jpg) ;
 }
 
 
@@ -141,6 +158,8 @@ body {
   text-align: center;
   background-color: white;
 }
+
+
 
 
 /* Icons */
@@ -211,7 +230,6 @@ body {
 .view-details-btn {
   background-color: #827397;
 }
-
 
 
 
