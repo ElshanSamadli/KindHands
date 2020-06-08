@@ -135,21 +135,20 @@ body {
   background-color: #4A0E66;
 }
 
-#first-feature {
+.first-feature {
   background-color: #827397;
-  padding: 7% 15%;
   color: white;
 }
 
-#second-feature {
-  padding: 7% 15%;
-  background-image: url(images/2018-quatrefoil-background-white.jpg) ;
+.second-feature {
+
+  background-color: white;
+
 }
 
 
-#third-feature {
+.third-feature {
   background-color: #8566aa;
-  padding: 7% 15%;
   color: white;
 }
 
@@ -231,7 +230,10 @@ body {
   background-color: #827397;
 }
 
-
+.aboutus {
+  background-color:#8566aa ;
+  color: white;
+}
 
 
 
