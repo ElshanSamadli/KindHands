@@ -138,18 +138,24 @@ body {
 .first-feature {
   background-color: #827397;
   color: white;
+  padding-top: 7% ;
+  padding-bottom: 7%;
+
 }
 
 .second-feature {
 
   background-color: white;
-
+  padding-top: 7% ;
+  padding-bottom: 7%;
 }
 
 
 .third-feature {
   background-color: #8566aa;
   color: white;
+  padding-top: 7% ;
+  padding-bottom: 7%;
 }
 
 #footer {
@@ -223,7 +229,7 @@ body {
 
 .btn:hover {
   color: white;
-  background-color: #6a097d;
+  background-color: #9E0363;
 }
 
 .view-details-btn {
@@ -235,5 +241,7 @@ body {
   color: white;
 }
 
-
+.container-fluid {
+  padding: 7%, 0;
+}
 
